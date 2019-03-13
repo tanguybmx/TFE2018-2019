@@ -1,0 +1,15 @@
+INSERT INTO mydb.categories(id,nom) VALUES (0,'divers');
+INSERT INTO mydb.categories(id,nom) VALUES (1,'boeuf');
+INSERT INTO mydb.categories(id,nom) VALUES (2,'veau');
+INSERT INTO mydb.categories(id,nom) VALUES (3,'porc');
+INSERT INTO mydb.categories(id,nom) VALUES (4,'agneau');
+INSERT INTO mydb.categories(id,nom) VALUES (5,'hache');
+INSERT INTO mydb.categories(id,nom) VALUES (6,'traiteur');
+INSERT INTO mydb.categories(id,nom) VALUES (7,'abat');
+INSERT INTO mydb.categories(id,nom) VALUES (8,'barbecue');
+INSERT INTO mydb.categories(id,nom) VALUES (9,'volaille');
+INSERT INTO mydb.categories(id,nom) VALUES (10,'gibier');
+INSERT INTO mydb.categories(id,nom) VALUES (11,'mature');
+INSERT INTO mydb.categories(id,nom) VALUES (12,'plateau');
+INSERT INTO mydb.categories(id,nom) VALUES (13,'boudin');
+INSERT INTO mydb.categories(id,nom) VALUES (14,'charcuterie');
