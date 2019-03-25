@@ -1,0 +1,54 @@
+.container-produit{
+    height: 300px;
+    /*position:fixed;
+    left:0; right:0;
+    top:0; bottom:0;
+    margin:auto;
+    max-width:100%;
+    max-height:100%;*/
+    border-top: 1px solid grey;
+    padding: 1em;
+    margin-left: 0.5em;
+}
+
+.promo{
+    background-color: #e30613;
+    width: 50px;
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.price{
+    font-size:26px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.asterix{
+    font-size:0.7em;
+}
+
+input{
+    border: 1px solid #ccc;
+    font-weight: bold;
+    height: 33px;
+    text-align: center;
+    width: 40px;
+
+}
+
+#cart{
+    background-color: #e30613;
+    color: white;
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+#ajoutPanier{
+    position: center;
+}
+
+#prixCalc1{
+    border:0;
+}
