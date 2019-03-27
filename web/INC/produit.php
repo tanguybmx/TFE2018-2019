@@ -5,8 +5,16 @@
  * Date: 25-03-19
  * Time: 09:24
  */
+include 'connectionDB.php';
+$produits= produits();
+
+foreach ($produits as $key=>$values){
+    echo "<pre>";
+    print_r($values['id']);
+    echo "</pre>";
+}
 ?>
-<link rel="stylesheet" href="../CSS/produit.css">
+<!--<link rel="stylesheet" href="../CSS/produit.css">
 
 
 <div class="container-produit">
@@ -36,6 +44,6 @@
     </div>
 
 
+</div>-->
 
-</div>
 
