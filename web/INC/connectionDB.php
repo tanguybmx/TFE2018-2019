@@ -28,7 +28,7 @@ function produits()
     if ($conn->connect_error) {
         die("Connection failed: " . $conn->connect_error);
     }
-    $result = $conn->query("select id, nom, description, prix, estPrixDuJour, cat, cat2 from produits") or die($mysqli->error());
+    $result = $conn->query("select id, nom, description, prix, estPrixDuJour, cat, cat2, estPromo from produits") or die($mysqli->error());
     if ($result->num_rows == 0) {
         $_SESSION['message'] = "Il n'y a pas encore de cartes mises en avant";
         print $_SESSION['message'];
